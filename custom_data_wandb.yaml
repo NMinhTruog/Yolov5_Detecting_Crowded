@@ -1,0 +1,5 @@
+names:
+- person
+nc: 1
+train: wandb-artifact://custom_yolov5_v2\train
+val: wandb-artifact://custom_yolov5_v2\val
