@@ -3,7 +3,7 @@ import torch
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 model.classes=[0]
-model.classes=[1]
+
 model.iou=0.2
 # set image
 img = 'https://github.com/ultralytics/yolov5/raw/master/data/images/zidane.jpg'
